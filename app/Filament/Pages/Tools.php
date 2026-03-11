@@ -12,7 +12,7 @@ class Tools extends Page
 {
     protected string $view = 'filament.pages.tools';
 
-    protected static BackedEnum | string | null $navivationIcon = 'heroicon-o-wrench-screwdriver';
+    protected static BackedEnum | string | null $navigationIcon = 'heroicon-o-wrench-screwdriver';
     
     public function generateCsv()
     {
